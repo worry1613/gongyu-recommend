@@ -136,10 +136,10 @@ class itemCF:
         Wret = self.W.copy()
         for k, v in self.W.items():
             maxW = max([tv for tk, tv in v.items()])
-            print(v)
+            # print(v)
             for kk, vv in v.items():
                 self.W[k][kk] = vv / maxW
-            print(self.W[k])
+            # print(self.W[k])
 
     def recommend(self, user, k=10, n=20):
         rank = dict()
