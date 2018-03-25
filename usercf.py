@@ -208,10 +208,3 @@ if __name__ == '__main__':
     r1iif = ucfiif.recommend(1, k=20, n=10)
     print(riif)
     print(r1iif)
-
-    ucftime = userCFTIME('./data/views.dat')
-    ucftime.fit(alpha=0.2)
-    rt = ucftime.recommend(1)
-    r1t = ucftime.recommend(1, k=20, n=10)
-    print(rt)
-    print(r1t)
